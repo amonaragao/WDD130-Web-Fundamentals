@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Raleway&Bebas+Neue&family=Fjalla+One&family=Oswald:wght@500&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -11,8 +13,9 @@
 
 nav a{
     text-align: center;
-    color: #0077B6;
+    color: #000000;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a :hover{
@@ -37,22 +40,49 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 #background{
     height: 725px;
 }
 
 body{
-    background-color: #E7C24F;
+    background-color: #FFFFFF;
+    font-family: "carter one", "fjalla one", "bebas neuer";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+.home-title{
+    font-family: "carter one", "bebas neuer", "fjalla one" ;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 header{
-    background-color: #FFFFFF;
+    background-color: #0077B6;
+    font-family:"carter one", "fjalla one", "oswald";
 }
  
 .book, .join{
-    background-color: #FFFFFF;
-    color: #0077B6;
+    background-color: #03045E;
+    color: #FFFFFF;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.card-img{
+    border: 10px solid #000000;
 }
 
 .book:hover, .join:hover{
@@ -66,22 +96,37 @@ header{
 
 .msg{
     background-color: #03045E;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
     color: #FFFFFF;
+    font-family: "oswald", "bebas neuer", "fjalla one";
 }
 
 .msg p{
     color: #000000;
+    font-size: 8em;
+    padding-bottom: 15px;
 }
 
 .river-img{
     background-color: #0077B6;
 }
 
+.paragraph{
+    font-family: "Raleway";
+}
+
+.rivers-card-img, .camping-card-img, .mounting-card-img{
+    margin: 200px 0;
+}
+
 footer{
-    background-color: #0077B6;
+    background-color: #E7C24F;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p{
@@ -94,19 +139,28 @@ footer a{
 }
 
 footer a:hover{
-    color: #FFFFFF;
+    color: #0077B6;
 }
 
 footer p a:hover{
     text-decoration: underline;
 }
 
+footer .social img{
+    padding-top: 15px;
+}
+
 .logo{
     width: 80px;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
